@@ -6,7 +6,7 @@
 }
 
 body{
-     padding: 0;
+   padding-top: 30px;
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -14,8 +14,12 @@ body{
     height: 100vh;
    
 }
+.head{
+  width: 100%;
+}
 .title{
     color: rgb(73, 41, 41);
+    width: 100%;
 }
 
 #display{
