@@ -1,14 +1,18 @@
 *{
    
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 body{
      padding: 0;
     margin: 0;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    height: 150vh;
+    height: 100vh;
+   
 }
 .title{
     color: rgb(73, 41, 41);
@@ -29,12 +33,12 @@ body{
     /* for the calculator, want it to be in 4 columns, then will assign column attribute of (4) and to arrange the buttons evenly will use fractional unit(fr) and 1fr to take even amount of space.  */
     grid-template-columns:repeat(4, 1fr);   
     gap: 20px;
-    padding: 20px;
+    padding: 40px;
 }
 
 button{
-    width: 100px;
-    height: 100px;
+    width: 85px;
+    height: 85px;
     border-radius: 40px;
     border: none;
     /* for the background color lets use hsl value */
@@ -42,6 +46,11 @@ button{
     font-size: 2rem;
     font-weight: bold;
     cursor: pointer;
+  
+}
+
+@media(max-width:500px){
+      
 }
 button:hover{
       background-color: hsl(0, 0%, 40%);
@@ -76,5 +85,6 @@ button:active{
     border-radius: 15px;
     max-width: 500px;
     /* overflow: hidden; */
+    /* padding: 10px; */
   
 }
