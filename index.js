@@ -18,7 +18,7 @@ function calculate(){
     }
 }
 
-function deleteLast() {
+function deleteLast(){
     let disp = document.getElementById("display");
     disp.value = disp.value.slice(0, -1);
 }
