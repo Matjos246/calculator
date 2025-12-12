@@ -16,10 +16,13 @@ body{
 }
 .head{
   width: 100%;
+ 
 }
 .title{
     color: rgb(73, 41, 41);
     width: 100%;
+     padding-block: 12px;
+     font-size: 30px;
 }
 
 #display{
