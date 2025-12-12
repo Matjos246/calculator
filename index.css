@@ -37,7 +37,7 @@ body{
     /* for the calculator, want it to be in 4 columns, then will assign column attribute of (4) and to arrange the buttons evenly will use fractional unit(fr) and 1fr to take even amount of space.  */
     grid-template-columns:repeat(4, 1fr);   
     gap: 20px;
-    padding: 40px;
+    padding: 30px;
 }
 
 button{
@@ -50,13 +50,19 @@ button{
     font-size: 2rem;
     font-weight: bold;
     cursor: pointer;
-    /* justify-content: space-around; */
-    padding: 10px;
+  
   
 }
 
 @media(max-width:390px){
-      
+      button{
+         width: 75px;
+       height: 75px;
+      }
+
+      #keys{
+         padding: 30px;
+      }
 }
 button:hover{
       background-color: hsl(0, 0%, 40%);
