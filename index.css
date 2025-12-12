@@ -54,7 +54,7 @@ button{
   
 }
 
-@media(max-width:390px){
+/* @media(max-width:390px){
       button{
          width: 75px;
        height: 75px;
@@ -63,7 +63,7 @@ button{
       #keys{
          padding: 30px;
       }
-}
+} */
 button:hover{
       background-color: hsl(0, 0%, 40%);
 }
