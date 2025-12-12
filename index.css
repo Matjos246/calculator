@@ -100,3 +100,9 @@ button:active{
     padding: 20px;
   
 }
+
+#calculator input{
+  padding: 20px;
+  justify-content: center;
+  
+}
