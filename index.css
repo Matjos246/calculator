@@ -6,7 +6,7 @@
 }
 
 body{
-   padding-top: 30px;
+ padding: 0;
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -54,16 +54,7 @@ button{
   
 }
 
-/* @media(max-width:390px){
-      button{
-         width: 75px;
-       height: 75px;
-      }
 
-      #keys{
-         padding: 30px;
-      }
-} */
 button:hover{
       background-color: hsl(0, 0%, 40%);
 }
@@ -98,11 +89,11 @@ button:active{
     max-width: 500px;
     /* overflow: hidden; */
     padding: 20px;
+    padding-top: 0;
   
 }
 
 #calculator input{
   padding: 50px;
   justify-content: center;
-  
 }
